@@ -287,3 +287,161 @@ footer{
     
 }
 
+.Estudiante{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(4,125,254,255);
+    border-collapse: collapse;
+    float: left;
+
+}
+
+.Trainee{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #4bb7c8;
+    border-collapse: collapse;
+    float:left
+}
+
+.Junior{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ffc10a;
+    border-collapse: collapse;
+    float: left
+}
+
+.contenido{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.Datos-Personales{
+    margin-left: 45%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.Presentacion{
+    text-align: center;
+}
+
+.botones{
+    color: aliceblue;
+    width: 45%;
+    border: 0;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.contenedor2{
+    display: flex;
+   padding-top: 1000px;
+    justify-content: space-between;
+    margin: 20px;
+    width: 1325px;
+    padding: 15%;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Cards*/
+.container-card2{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.card .contenido-card2{
+	padding: 15px;
+	text-align: center;
+    border: 2px solid #ff0ade;
+    
+
+}
+.card .contenido-card2 h2{
+	margin-bottom: 15px;
+    padding: 30px;
+	
+}
+.card .contenido-card2 p{
+	line-height: 1.8;
+	padding: 15px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+
+.Pago{
+    background-color: #cce5ff;
+    border: solid  #cce5ff;
+    border-radius: 5px;
+    color: #6aa3ea;
+    width: 97%;
+    padding: 10px;
+}
+.Eleccion{
+    width: 45%;
+    padding: 10px;
+}
+
+.formulario2{
+    margin-right: 45px;
+    padding: 6px;
+}
+
+.Apellido{
+    padding: 6px;
+}
+
+.botones2{
+    color: aliceblue;
+    width: 48%;
+    border: 0;
+    padding: 5px;
+    border-radius: 5%;
+    
+}
